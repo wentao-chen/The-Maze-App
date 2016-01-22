@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">The Maze App</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_game">Game</string>
+
+    <string name="pref_title_game_mode">Game mode</string>
+    <string name="pref_description_game_mode">Select the current game mode</string>
+    <string name="key_game_mode">GameModeKey</string>
+
+    <string name="key_game_mode_summary">KeyGameModeSummary</string>
+
+    <string name="pref_title_use_code">Use Seed</string>
+    <string name="pref_description_use_code">Generate a maze using a seed</string>
+    <string name="key_use_code">UseCodeKey</string>
+
+    <string name="toast_success_seed">Maze generated</string>
+    <string name="toast_fail_seed">Invalid seed</string>
+
+    <string name="pref_title_custom_maze_width">Custom Maze Width</string>
+    <string name="key_custom_maze_width">CustomMazeWidthKey</string>
+    <string name="pref_title_custom_maze_height">Custom Maze Height</string>
+    <string name="key_custom_maze_height">CustomMazeHeightKey</string>
+    <integer name="min_custom_maze_size">3</integer>
+    <integer name="max_custom_maze_size">100</integer>
+
+    <string name="pref_title_custom_maze_create">Generate Custom Maze</string>
+    <string name="key_custom_maze_create">CustomMazeCreateKey</string>
+    <string name="toast_success_custom_maze">Maze generated</string>
+    <string name="toast_fail_custom_maze">Unable to generate maze</string>
+
+    <string name="pref_title_custom_maze_solve">Solve Maze</string>
+    <string name="key_custom_maze_solve">CustomMazeSolveKey</string>
+
+    <string name="pref_title_maze_create">Create New Maze</string>
+    <string name="key_maze_create">CreateNewMazeKey</string>
+    <string name="pref_description_create_new_maze">Available in</string>
+
+    <string name="toast_follow_player_message">Hold to find player</string>
+
+    <string name="pref_title_algorithm">Maze Generation Algorithm</string>
+    <string name="key_algorithm">AlgorithmKey</string>
+
+    <string name="pref_header_other">Other Settings</string>
+
+    <string name="pref_title_show_tracer">Show Tracer</string>
+    <string name="pref_description_show_tracer">Mark the path travelled</string>
+    <string name="key_show_tracer">ShowTracerKey</string>
+
+    <string name="pref_title_square_cells">Square Cells</string>
+    <string name="key_square_cells">SquareCellsKey</string>
+
+    <string name="pref_title_recalibrate">Recalibrate Tilt</string>
+    <string name="key_recalibrate">RecalibrateKey</string>
+    <string name="toast_recalibrate">Tilt Calibrated</string>
+
+    <string name="pref_title_default_tilt">Reset Tilt Calibration</string>
+    <string name="key_default_tilt">DefaultTiltKey</string>
+    <string name="toast_default_tilt">Tilt Reset</string>
+
+    <string name="save_toggle_tracer">SaveToggleTracer</string>
+    <string name="save_square_cells">SaveSquareCells</string>
+    <string name="save_algorithm">SaveAlgorithm</string>
+    <string name="save_game_mode">SaveGameMode</string>
+    <string name="save_regular_level">SaveRegularLevel</string>
+    <string name="save_fill_level">SaveFillLevel</string>
+    <string name="save_regular_level_maze">SaveRegularLevelMaze</string>
+    <string name="save_regular_level_maze_progress">SaveRegularLevelMazeProgress</string>
+    <string name="save_fill_level_maze">SaveFillLevelMaze</string>
+    <string name="save_fill_level_maze_progress">SaveFillLevelMazeProgress</string>
+    <string name="save_custom_level_maze">SaveCustomLevelMaze</string>
+    <string name="save_custom_level_maze_progress">SaveCustomLevelMazeProgress</string>
+    <string name="save_last_create_regular_maze_time">SaveLastCreateRegularMazeTime</string>
+    <string name="save_last_create_fill_maze_time">SaveLastCreateFillMazeTime</string>
+
+    <string name="maze_algorithm_name_aldous_broder">Aldous-Broder</string>
+    <string name="maze_algorithm_name_binary_tree">Binary Tree</string>
+    <string name="maze_algorithm_name_eller">Eller</string>
+    <string name="maze_algorithm_name_hunt_and_kill">Hunt and Kill</string>
+    <string name="maze_algorithm_name_kruskal">Kruskal</string>
+    <string name="maze_algorithm_name_prim">Prim</string>
+    <string name="maze_algorithm_name_recursive_backtracker">Recursive Backtracker</string>
+    <string name="maze_algorithm_name_recursive_division">Recursive Division</string>
+    <string name="maze_algorithm_name_sidewinder">Sidewinder</string>
+    <string name="maze_algorithm_name_wilson">Wilson</string>
+    <string name="maze_algorithm_name_random">Random</string>
+
+    <string name="display_colon">:</string>
+    <string name="display_maze">Maze</string>
+    <string name="display_multiply">x</string>
+    <string name="display_speed">Speed</string>
+    <string name="display_generation_seed">Generation Seed</string>
+    <string name="display_time">Time</string>
+    <string name="display_hour">h</string>
+    <string name="display_minute">m</string>
+    <string name="display_second">s</string>
+    <string name="display_zoom">Zoom</string>
+    <string name="display_multiply_zoom">x</string>
+    <string name="display_level">Level</string>
+    <string name="display_difficulty">Difficulty</string>
+    <string name="display_algorithm">Algorithm</string>
+
+    <string name="display_menu">Menu</string>
+
+    <string name="game_mode_name_regular">Regular</string>
+    <string name="game_mode_name_fill">Clear</string>
+    <string name="game_mode_name_analyze">Analyze</string>
+    <string name="game_mode_name_labyrinth">Labyrinth</string>
+    <string name="game_mode_name_custom">Custom</string>
+
+    <string name="game_mode_description_regular">Reach the highest level possible by completing each maze</string>
+    <string name="game_mode_description_fill">Clear the maze and avoid any enemies</string>
+    <string name="game_mode_description_analyze">Determine if the maze can be solved</string>
+    <string name="game_mode_description_labyrinth">Reach the goal and avoid the gaps</string>
+    <string name="game_mode_description_custom">Create a custom maze</string>
+
+    <string name="toast_caught_by_bot">Level Restart</string>
+</resources>
